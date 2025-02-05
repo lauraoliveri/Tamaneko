@@ -1,19 +1,18 @@
 /* 
     GENERAL
 */
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
 
-.my-row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-/* 
-    APP
+/*
+    FONTS 
 */
-main {
-  text-align: center;
+
+* {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
+
+
