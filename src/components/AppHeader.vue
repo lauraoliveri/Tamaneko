@@ -19,5 +19,13 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: $yellow;
+}
 
+header {
+  background-color: $skyBlue;
+}
 </style>
