@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <footer class="text-center pt-4">
+  <footer class="text-center p-4">
     <!-- SOCIALS -->
     <p>
       My socials:
@@ -39,5 +39,8 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
+footer {
+  background-color: $lilac;
+}
 
 </style>
