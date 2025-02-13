@@ -13,7 +13,7 @@ import AppMain from './components/AppMain.vue';
 export default {
   data() {
     return { 
-      count: 0
+      
     }
   },
   // 2) Dichiarazione del componente
@@ -23,9 +23,7 @@ export default {
     AppFooter
   },
   methods: {
-    incrementCount() {
-      this.count++;
-    }
+    
   }
 }
 </script>
@@ -37,7 +35,6 @@ export default {
     <AppMain />
     <AppFooter />
     
-    
   </div>
 </template>
 
@@ -45,4 +42,5 @@ export default {
 @use 'assets/scss/main' as *;
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
 </style>
